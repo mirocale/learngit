@@ -1,0 +1,37 @@
+*{
+  margin:0px;
+  padding: 0px;
+}
+.header{
+  background-color: #ccdfff;
+  width: 100%;
+  height: 40px;
+}
+.list1{
+  font-family: cursive;
+  font-style: bold;
+  float: right;
+  margin-right:100px;
+  margin-top:10px;
+}
+ul li{
+  display: inline;
+}
+.content{
+  background-color: #ffccff;
+  width: 100%;
+  height:800px;
+  text-align:center;
+}
+.content_art{
+  padding-top:300px;
+}
+.footer{
+  background-color: gray;
+  width: 100%;
+  height:auto;
+  text-align:center;
+}
+.list3{
+  padding: 10px;
+}
