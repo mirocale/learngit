@@ -4,19 +4,25 @@
     <meta charset="utf-8">
     <title>简单混合布局</title>
     <style media="screen">
-      .top{height:30px;background-color: #232;}
-      .main{height:800px;background-color:#648;}
-      .left{height:800px;width:200px;background-color: #315;float: left;}
-      .right{height:800px;background-color: #446;margin-left:200px;}
-      .footer{}
-        body{}
+      .top{height:100px;background-color: #232;}
+      .main{height:600px;background-color:#648;}
+      .left{height:600px;width:200px;background-color: #315;float: left;}
+      .right{height:600px;background-color: #446;margin-left:210px;}
+      .foot{background-color:red;clear: left;}
+        body{
+          margin: 0px;
+          padding: 0px;
+          text-align: center;
+          font-size: 30px;
+          font-style: bold;
+        }
     </style>
   </head>
   <body>
     <div class="top">top</div>
     <div class="main">
-        <div class="right">right</div>
         <div class="left">left</div>
+        <div class="right">right</div>
     </div>
     <div class="foot">foot</div>
   </body>
