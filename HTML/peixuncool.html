@@ -18,10 +18,10 @@
         <li><a href="#">认证中心</a></li>
         <li><a href="#">关于我们</a></li>
         <li>
-          <input class="ip_t" type="text" name="text" value="输入课程或讲师名称">
-          <input class="ip_s"type="submit" name="submit" value="surch">
+          <input class="ip_t" type="text" name="text" placeholder="输入课程或讲师名称">
+          <input class="ip_s"type="submit" name="submit" value="surch" style="color:white; background-color:#0f7bc3; border-left:none">
         </li>
-        <li class="li_1"><a href="http://www.baidu.com"><img width="25px" height="20px" src="../PIC/email.png" alt="邮件"></a>
+        <li class="li_1"><a href="http://www.baidu.com"><img src="../PIC/email.png" alt="邮件"></a>
             <a href="#">郭江</a>
             <a href="#">[退出]</a>
         </li>
@@ -41,100 +41,198 @@
          <div class="left_li_1">
            <img class="left_img1" src="../PIC/bg270-80.png" alt="键盘背景">
            <img class="left_img2" src="../PIC/bg.png" alt="头像">
-           <h3 class="hs">矿泉水</h3>
-           <a href="#">修改个人信息</a>
+           <h3 class="hs" style="line-height:35px;" >矿泉水</h3>
+           <a href="#" style="line-height:35px;">修改个人信息<img src="../PIC/jt.png" class="limg0" alt="jt"></a>
          </div>
          <div class="left_li_2">
           <ul>
-            <li><a href="#">我的培训</a><a href="#" target="_blank">></a></li><hr/>
-            <li><a href="#">我的学习</a><a href="#" target="_blank"><span>①</span></a></li><hr/>
-            <li><a href="#">电子名片</a><a href="#" target="_blank">></a></li><hr/>
-            <li><a href="#">我的认证</a><a href="#" target="_blank">></a></li><hr/>
-            <li><a href="#">讲师风采</a><a href="#" target="_blank">></a></li>
+            <li><div class="ltext"><a href="#">我的培训</a></div>
+                <div class="limg"><img src="../PIC/jt.png" alt="jt"></div>
+            </li>
+            <li><div class="ltext"><a href="#">我的学习</a></div>
+                <div class="limg limg1">1</div>
+            </li>
+            <li><div class="ltext"><a href="#">电子名片</a></div>
+                <div class="limg"><img src="../PIC/jt.png" alt="jt"></div>
+            </li>
+            <li><div class="ltext"><a href="#">我的认证</a></div>
+                <div class="limg"><img src="../PIC/jt.png" alt="jt"></div>
+            </li>
+            <li><div class="ltext"><a href="#">讲师风采</a></div>
+                <div class="limg"><img src="../PIC/jt.png" alt="jt"></div>
+            </li>
           </ul>
         </div>
-         <div class="left_li_3">
+         <div class="left_li_2">
            <ul>
-             <li><a href="#">我的评价</a><a href="#" target="_blank"><span>①</span></a></li><hr/>
-             <li><a href="#">我的等级</a><a href="#" target="_blank">></a></li><hr/>
-             <li><a href="#"> 班级讨论组</a><a href="#" target="_blank">></a></li><hr/>
-             <li><a href="#">消息通知</a><a href="#" target="_blank"><span>①</span></a></li>
+             <li><div><a href="#">我的评价</a></div>
+                 <div class="limg limg1">1</div>
+             </li>
+             <li><div><a href="#">我的等级</a></div>
+                 <div class="limg"><img src="../PIC/jt.png" alt="jt"></div>
+              </li>
+             <li><div><a href="#"> 班级讨论组</a></div>
+                 <div class="limg"><img src="../PIC/jt.png" alt="jt"></div>
+             </li>
+             <li><div><a href="#">消息通知</a></div>
+                 <div class="limg limg1">1</div>
+             </li>
            </ul>
          </div>
         </div>
         <div class="content_R">
         <h2>新建培训项目</h2><hr/>
-        <div class="">
-          <label for=""><span>*</span> 课程名称</label>
-          <select name="courselist" form="courseform">
+        <div class="main ">
+          <div class="main_L">
+          <label for="a0"><span><font color="#ef8246">*</font></span> 课程名称</label>
+          </div>
+          <div class="main_R">
+          <select name="courselist" form="courseform" class="s1">
                <option value="course_0">社会主义核心价值观</option>
                <option value="course_1">社会主义核心价值观1</option>
                <option value="course_2">社会主义核心价值观2</option>
                <option value="course_3">社会主义核心价值观3</option>
           </select>
         </div>
-        <div class="">
-          <label for="">开始时间</label>
-          <input type="text" name="" value="">
         </div>
-        <div class="">
-          <label for="">结束时间</label>
-          <input type="text" name="" value="">
+        <div class="main">
+          <div class="main_L">
+          <label for="a1">开始时间</label>
+         </div>
+         <div class="main_R">
+          <input class="rl" type="text" name="a1" value="" placeholder="选择培训开始时间">
         </div>
-        <div class="">
-          <label for=""><span>*</span> 培训城市</label>
-          <input type="text" name="" value="">
         </div>
-        <div class="">
-          <label for="">详细地址</label>
-          <input type="text" name="" value="">
+        <div class="main">
+          <div class="main_L">
+          <label for="a2">结束时间</label>
         </div>
-        <div class="">
-          <label for=""><span>*</span> 培训组织单位</label>
-          <input type="text" name="" value="">
+        <div class="main_R">
+          <input class="rl" type="text" name="a2" value="" placeholder="选择培训结束时间">
         </div>
-        <div class="">
-          <label for="">培训对象</label>
-          <input type="text" name="" value="">
         </div>
-        <div class="">
-          <label for=""><span>*</span> 培训性质</label>
-          <input type="text" name="" value="">
+        <div class="main">
+          <div class="main_L">
+          <label for="a3"><font color="#ef8246">*</font> 培训城市</label>
         </div>
-        <div class="">
-          <label for="">是否允许报名</label>
-          <input type="text" name="" value="">
+          <div class="main_R">
+            <select class="s2" name="SH" form="H">
+                 <option value="SH_1">四川</option>
+                 <option value="SH_2">湖南</option>
+            </select>
+            省
+            <select class="s2" name="SS" form="S">
+                 <option value="SS_1">成都</option>
+                 <option value="SS_2">重庆</option>
+            </select>
+            市
+            <select class="s2" name="SQ" form="Q">
+                 <option value="SQ_1">高新区</option>
+                 <option value="SQ_2">渝北区</option>
+            </select>
+
         </div>
-        <div class="">
+      </div>
+        <div class="main">
+          <div class="main_L">
+          <label for="a4">详细地址</label>
+        </div>
+        <div class="main_R">
+          <input type="text" name="" value="" id="a4" placeholder="请输入详细地址">
+        </div>
+      </div>
+        <div class="main">
+          <div class="main_L">
+          <label for="a5"><font color="#ef8246">*</font> 培训组织单位</label>
+        </div>
+        <div class="main_R">
+          <input type="text" name="" value="" id="a5" placeholder="请输入所培训公司的名称">
+        </div>
+      </div>
+        <div class="main">
+          <div class="main_L">
+          <label for="a6">培训对象</label>
+        </div>
+        <div class="main_R">
+          <input type="text" name="" value="" id="a6" placeholder="请输入培训对象">
+        </div>
+      </div>
+        <div class="main">
+          <div class="main_L">
+          <label for="a7"><font color="#ef8246">*</font> 培训性质</label>
+        </div>
+        <div class="main_R mainr1">
+          <input class="rxz1" type="text" value="内训">
+          <input class="rxz2" type="text" value="公开课">
+        </div>
+      </div>
+        <div class="main">
+          <div class="main_L">
+          <label for="a8">是否允许报名</label>
+        </div>
+        <div class="main_R mainr1">
+          <input class="rxz1" type="text" value="是">
+          <input class="rxz2" type="text" value="否">
+        </div>
+      </div>
+        <div class="main mainx">
+          <div class="main_L">
+          <label for="a9">&nbsp</label>
+        </div>
+        <div class="main_R">
+          <p>设置用户报名时必填项</p>
+        </div>
+      </div>
+        <div class="main main_xx">
+          <div class="main_L">
+          <label for="a10"><font color="#ef8246">*</font>&nbsp&nbsp&nbsp&nbsp</label>
+        </div>
+        <div class="main_R mR">
+          <input class="rxz3 rxz31" type="text" name="names" value="姓名">
+          <input class="rxz3" type="text" name="phone" value="手机号">
+          <input class="rxz3" type="text" name="units" value="单位">
+          <input class="rxz3" type="text" name="department" value="部门">
+          <div class="main_L">
+          <label for="a10">&nbsp&nbsp&nbsp&nbsp</label>
+          </div>
+          <div class="main_R mR">
+          <input class="rxz3"type="text" name="phone" value="手机号">
+          </div>
+        </div>
+      </div>
+        <div class="main">
+          <div class="main_L">
+          <label for="a12">报名上限</label>
+        </div>
+        <div class="main_R">
+          <input type="text" name="" value="" id="a12" placeholder="请输入学员数量">
+        </div>
+      </div>
+        <div class="main">
+          <div class="main_L">
+          <label for="a13">是否需要审核</label>
+        </div>
+        <div class="main_R mainr1">
+          <input class="rxz1" type="text" value="是">
+          <input class="rxz2" type="text" value="否">
+        </div>
+      </div>
+        <div class="main">
+          <div class="main_L">
           <label for="">&nbsp</label>
-          <input type="text" name="" value="">
         </div>
-        <div class="">
-          <label for=""><span>*</span>&nbsp&nbsp&nbsp&nbsp</label>
-          <input type="text" name="" value="">
+        <div class="main_R">
+          <input class="rxz4" type="text" value="提交">
         </div>
-        <div class="">
-          <label for=""></label>
-          <input type="text" name="" value="">
-        </div>
-        <div class="">
-          <label for="">报名上限</label>
-          <input type="text" name="" value="">
-        </div>
-        <div class="">
-          <label for="">是否需要审核</label>
-          <input type="text" name="" value="">
-        </div>
-        <div class="">
-          <label for="">&nbsp</label>
-          <input type="submit" name="submbit_2" value="提交">
-        </div>
+      </div>
        </div>
     </div>
 
     <div class="footer">
+    <div class="foot1">
       <img src="../PIC/pxclg.png" alt="培训酷">
-      <div class="footer_list">
+    </div>
+      <div class="foot2">
         <ul>
           <li><a href="#">申请合作</a></li>
           <li><a href="#">APP下载</a></li>
@@ -142,12 +240,16 @@
           <li><a href="#">关于我们</a></li>
           <li><a href="#">联系我们</a></li>
         </ul>
-      <p><a href="#">蜀ICP备13014270号-4</a>&nbsp;VERSION 5.0.0 RELEASE20160127</p>
+      </div>
+      <div class="foot3">
+      <a href="#">蜀ICP备13014270号-4</a>&nbsp;VERSION 5.0.0 RELEASE20160127
+     </div>
+      <div class="foot4">
       <a href="#"><img src="../PIC/sina.png" alt="新浪"></a>
       <a href="#"><img src="../PIC/tx.png" alt="腾讯"></a>
+      <a href="#"><img src="../PIC/wx.png" alt="腾讯"></a>
       </div>
     </div>
-
 
   </body>
 </html>
