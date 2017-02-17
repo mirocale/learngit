@@ -165,7 +165,10 @@ h2{
   font-size: 0;
 }
 .rl{
-  background:url(../PIC/calender.png) 3px 3px left no-repeat;
+  background-image: url(../PIC/calendar.png);
+  background-size: 15px 16px;
+  background-position: right 4px top 8px;
+  background-repeat: no-repeat;
 }
 input,.s1{
   width: 390px;
@@ -186,6 +189,7 @@ input,.s1{
   font-weight: bold;
   font-size: 15px;
   border: none;
+  readOnly: ture;
 }
 .rxz2{
   width: 195px;
@@ -199,12 +203,15 @@ input,.s1{
   border: none;
 }
 .rxz3{
+  color: #8d8d8d;
   width: 85px;
   text-align: center;
 }
 .rxz31{
   border: solid 1px #0f7bc3;
-  background:url(../PIC/gou.png) 3px 3px left no-repeat;
+  background:url(../PIC/gou2.png);
+  background-position: right 0 bottom 0;
+  background-repeat: no-repeat;
 }
 .rxz4{
   width: 95px;
